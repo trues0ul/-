@@ -1,0 +1,21 @@
+# venv / poetry
+.venv/
+venv/
+.poetry/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Env & IDE
+.env
+.env.*
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
