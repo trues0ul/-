@@ -1,0 +1,4 @@
+SELECT c.login, COUNT(o.id) AS orders_in_delivery FROM couriers c JOIN orders o ON c.id = o.courier_id WHERE o.inDelivery = TRUE GROUP BY c.login;
+
+
+SELECT track, CASE WHEN finished = true THEN 2 WHEN cancelled = true THEN -1 WHEN "inDelivery" = true THEN 1 ELSE 0 END AS stat FROM "Orders";
