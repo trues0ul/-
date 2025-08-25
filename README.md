@@ -1,3 +1,7 @@
-Тесты на создание заказа, запрос на получение заказа по треку заказа в Яндекс.Самокат с помощью API Яндекс.Самокат.
-Для запуска тестов должны быть установлены пакеты pytest и requests
-Запуск всех тестов выполняется командой pytest
+# Scooter API Tests
+
+## Setup
+```powershell
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt

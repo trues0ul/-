@@ -1,21 +1,18 @@
-# venv / poetry
+# venv
 .venv/
 venv/
-.poetry/
 
-# Python cache
+# bytecode / pytest cache
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
 .pytest_cache/
 
-# Env & IDE
+# env / IDE
 .env
 .env.*
-.idea/
 .vscode/
+.idea/
 
-# OS
+# OS junk
 .DS_Store
 Thumbs.db
